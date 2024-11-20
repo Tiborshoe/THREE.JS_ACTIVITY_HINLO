@@ -1,0 +1,26 @@
+{
+  "name": "ITE-18-Activity",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "login": "vercel login",
+    "logout": "vercel logout",
+    "deploy": "vercel --prod"
+  },
+  "devDependencies": {
+    "@types/three": "^0.170.0",
+    "vite": "^4.0.4"
+  },
+  "dependencies": {
+    "debug": "^4.3.1",
+    "gsap": "^3.11.4",
+    "lil-gui": "^0.17.0",
+    "path-to-regexp": "^8.2.0",
+    "three": "^0.148.0",
+    "undici": "^6.2.0",
+    "vercel": "^39.0.2"
+  }
+}
